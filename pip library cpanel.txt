@@ -1,0 +1,34 @@
+pip install amqp appdirs asgiref billiard celery click click-didyoumean click-plugins click-repl cx-Oracle distlib Django filelock kombu pbr Pillow pip prompt-toolkit setuptools six SQLAlchemy sqlparse stevedore vine --user
+
+pip install virtualenv virtualenv-clone virtualenvwrapper wcwidth --user
+
+pip install django-pyodbc-azure-2019 
+
+pip install pyodbc
+
+pip install pytz
+
+pip install celery==4.4.2
+
+
+
+
+
+
+
+
+
+
+
+
+
+the below lsited not isntalled on cpanel?
+
+
+-m
+
+pip install django-pyodbc-azure-2019 --user
+
+ pyodbc pytz
+
+pip install pyodbc --user

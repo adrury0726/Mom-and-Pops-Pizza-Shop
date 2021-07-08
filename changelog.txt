@@ -1,0 +1,34 @@
+Changelog
+
+Will Jones 4/10/21
+C:\Users\Admin\Documents\momandpops\momandpops\momandpops\urls
+	#changing path('', include('shop.urls', namespace='shop')), to path('shop/', include('shop.urls', namespace='shop')), to add homepage
+
+added homepage app python manage.py startapp homepage
+
+added boot strap to C:\Users\Admin\Documents\momandpops\momandpops\shop\templates\shop\base.html for relative sizing 
+<link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
+
+Added home page and changed the URL for the shop and homepage.
+Landingpage is now on the homepage
+
+
+
+#
+5/2/21
+Had to install erlang
+install rabbit mq
+added a celery.py
+edited init.py for celery
+added task.py for notification email
+adding email to the backend at settings.py
+editing the views.py in orders for celery
+pip install celery==4.4.2 neede to change pip version
+ backend seems ot be working but unsure of mail funtion could be because of rabbit mq and celery  issues. django seems to be working fine though. 
+
+added special isntructions to the order checkout 
+
+
+
+
+

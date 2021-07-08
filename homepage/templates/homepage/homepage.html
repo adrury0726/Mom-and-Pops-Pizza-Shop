@@ -1,0 +1,57 @@
+<!-- templates/home.html -->
+{% extends "shop/base.html" %}
+{% load static %}
+{% block title %}
+  Your shopping cart
+{% endblock %}
+
+
+{% block content %}
+  <h1>Welcome to Mom and Pop's Pizza Shop!</h1>
+
+  <style>
+      .board {
+          margin: auto;
+          width: 320px;
+          padding: 5px;
+          border: 5px solid gray;
+      }
+
+      #style {
+          text-align: center;
+          padding-top: 10px;
+      }
+  </style>
+
+  <div id="sidebar">
+    <ul>
+      <li {% if not category %}class="selected"{% endif %}>
+        <a href="{% url "shop:product_list" %}">ORDER MENU</a>
+      </li>
+      {% for c in categories %}
+        <li {% if category.slug == c.slug %}class="selected"
+        {% endif %}>
+          <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div id="main" class="product-list">
+
+  <body>
+
+      <img src={% static 'img\shop.jpg' %} id="style" width="900" height=:500/>
+
+  </body>
+
+    <div id="style" class="boarder"
+
+    <h1><b>Location</b></h1>
+    <p>123 Main St</p>
+    <p>Denver, CO 80202</p>
+    <p>(720)222-2222</p>
+	<p>THIS IS A SCHOOL PROJECT FOR CTU DO NOT CONTACT</p>
+
+  </div>
+
+{% endblock %}

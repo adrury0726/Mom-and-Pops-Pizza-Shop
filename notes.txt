@@ -1,0 +1,165 @@
+cd C:\Users\Admin\Documents\momandpops\momandpops_env\Scripts
+
+activate.bat
+
+cd C:\Users\Admin\Documents\momandpops\momandpops
+
+python manage.py runserver
+
+http://127.0.0.1:8000/admin/actions/action/add/
+
+python manage.py makemigrations
+
+
+ctrl-c to quit server
+
+user
+http://127.0.0.1:8000/
+
+
+
+python manage.py runserver
+
+
+python manage.py startapp cart
+
+
+guest view
+http://127.0.0.1:8000/
+
+http://127.0.0.1:8000/admin/
+admin
+admin
+
+
+inv 
+user:inv
+pw: password12#$
+
+Username: tto 
+
+Pass: d00edjuhme
+
+
+server stuf????
+https://stackoverflow.com/questions/65740219/can-i-upload-django-project-on-cpanel-without-cloudlinux-installed
+https://www.sitepoint.com/python-web-applications-the-basics-of-wsgi/
+
+
+codytest/momandpops/momandpops/passenger_wsgi.py
+
+codytest/momandpops/momandpops/momandpops
+
+
+timetrippers.org/test
+
+
+codytest/momandpops/momandpops/momandpops
+
+apt-get install libapache2-mod-wsgi-py3
+
+Basic usage commands for pip
+The pip command on your system will either be pip3 or just pip. We're going to use pip3 in these examples, but just be aware that you may need to change that command for your own system.
+
+To see the version of pip and verify it's installed on the system:
+
+$ pip3 -V
+To install a package:
+
+$ pip3 install package-name
+To remove a package:
+
+$ pip3 uninstall package-name
+To search for a particular package:
+
+$ pip3 search package-name
+To see what packages are installed on your system:
+
+$ pip3 list
+To see information about a particular installed package:
+
+$ pip3 show package-name
+To access the help menu and see a full list of available pip commands:
+
+$ pip3 help
+These are probably all the commands you'll ever need, but you can check the help menu for a few more, or to get a quick refresher in case you forget one of the commands.
+
+Conclusion
+
+
+-m pip install django-pyodbc-azure-2019
+pip search django-pyodbc-azure
+
+python -m pip install django-pyodbc-azure-2019
+
+
+
+NEED TO INSTALL ON TERMINAL
+
+django-pyodbc-azure-2019 2.1.0.0       
+pyodbc 4.0.30 
+
+
+sudo apt-get install unixodbc-dev???????
+sudo apt-get install python-.0pip??????????
+
+yum get install unixodbc-dev
+
+echo 'alias python3="/home/tto/bin/python3.8"' >> ~/.bashrc
+
+
+4/25/21
+created heroku 
+william.c1.jones@gmail.com
+ASDFghjk12#$
+
+creeated guithub
+william.c1.jones@gmail.com
+QWERtyui12#$
+
+
+conencted heroku to github
+
+installed python buildpack to heroku
+created requirements.txt
+
+pythonanwywhere
+williamc1jones
+william.c1.jones@gmail.com
+QWERtyui12#$
+
+sql python anywhere
+ASDFghjk12#$
+
+
+heroku logs -a momandpops
+
+https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3Fstate%3DhashArgs%2523%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fhomepage&forceMobileApp=0&code_challenge=qhZpf2QYe24Odee5_-KphvsYJVHU1WQFfoXYjyl3HYE&code_challenge_method=SHA-256
+william.c1.jones@gmail.com	ASDFghjk12#$
+
+
+
+
+cd C:\Users\Admin\Documents\momandpops\momandpops
+celery -A momandpops worker -l info
+
+
+AARON'S CREDIT CARD PORTION:
+
+pip install braintree==3.59.0
+
+
+
+cd C:\Users\Admin\Documents\aaronmomandpops\momandpops\momandpops\momandpops\momandpops_env\Scripts
+
+activate.bat
+
+cd C:\Users\Admin\Documents\aaronmomandpops\momandpops\momandpops\momandpops\momandpops
+
+python manage.py runserver
+
+http://127.0.0.1:8000/admin/actions/action/add/
+
+python manage.py makemigrations
+
+
